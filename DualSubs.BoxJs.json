@@ -326,6 +326,7 @@
 						{ "key": "GoogleCloud", "label": "Google Cloud Translate（需填写API）" },
 						{ "key": "Microsoft", "label": "Microsoft Translator（需填写API）" },
 						{ "key": "DeepL", "label": "DeepL API（需填写API）" }
+						{ "key": "OpenAI", "label": "OpenAI / DeepSeek (需填写API)" }
 					]
 				},
 				{ "id": "@DualSubs.Translate.Settings.ShowOnly", "name": "只显示翻译字幕", "type": "boolean", "val": false, "desc": "是否仅显示翻译后字幕，不显示源语言字幕。" },
