@@ -438,7 +438,34 @@
 					"desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{ "id": "@DualSubs.API.Settings.DeepL.Version", "name": "[DeepL] API 版本", "val": "Free", "type": "selects", "items": [{ "key": "Free", "label": "Free" }, { "key": "Pro", "label": "Pro" }], "desc": "选择版本" },
-				{ "id": "@DualSubs.API.Settings.DeepL.Auth", "name": "[DeepL] API 认证内容", "val": "", "type": "text", "placeholder": "df4385c2-33de-e423-4134-ca1f7b3ea8b7", "desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕" }
+				{ "id": "@DualSubs.API.Settings.DeepL.Auth", "name": "[DeepL] API 认证内容", "val": "", "type": "text", "placeholder": "df4385c2-33de-e423-4134-ca1f7b3ea8b7", "desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕" },
+				{
+  "id": "@DualSubs.API.Settings.OpenAI.URL",
+  "name": "[OpenAI/DeepSeek] API 地址",
+  "val": "https://api.deepseek.com",
+  "type": "text",
+  "placeholder": "https://api.deepseek.com"
+},
+{
+  "id": "@DualSubs.API.Settings.OpenAI.Token",
+  "name": "[OpenAI/DeepSeek] API Key",
+  "val": "",
+  "type": "text",
+  "placeholder": "sk-xxxx"
+},
+{
+  "id": "@DualSubs.API.Settings.OpenAI.Model",
+  "name": "[OpenAI/DeepSeek] 模型",
+  "val": "deepseek-v4-flash",
+  "type": "text",
+  "placeholder": "deepseek-v4-flash"
+},
+{
+  "id": "@DualSubs.API.Settings.OpenAI.Prompt",
+  "name": "[OpenAI/DeepSeek] 提示词",
+  "val": "翻译为简体中文，保持字幕行数一致，不要解释",
+  "type": "text"
+}
 			],
 			"author": "@DualSubs",
 			"icons": ["https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Unlock.png", "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png"]
